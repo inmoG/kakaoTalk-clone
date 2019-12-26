@@ -1,2 +1,2 @@
 # kakaoTalk-clone
- nomadCoder class
+ kakao desktop app clone 
