@@ -1,7 +1,7 @@
 # kakaoTalk-clone
 
-kakao desktop app clone
-Nomad-coder HTML & CSS class
-https://academy.nomadcoders.co/p/kakaoclone_total
+<p>kakao desktop app clone</p>
+<p>Nomad-coder HTML & CSS class</p>
+<a href>https://academy.nomadcoders.co/p/kakaoclone_total</a>
 
 
