@@ -6,24 +6,28 @@
 ### css 문법
 
 - 태그
+
 h1 {
     property-name : value;
     property-name : value;
 }
 
 - id
+
 #h1 {
     property-name : value;
     property-name : value;
 }
 
 - class
+
 .h1 {
     property-name : value;
     property-name : value;
 }
 
 - 태그와 class
+
 h1 .name 
 {
     property-name : value;
