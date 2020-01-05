@@ -11,7 +11,7 @@
 ```html
 <span class="header__icon">
   <i class="fas fa-cog fa-3x"></i>
-  <!--크기는 2x, 3x, 5x, 7x, 9x가 있다.>
+  <!--크기는 2x, 3x, 5x, 7x, 9x가 있다.-->
 </span>
 ```
 
