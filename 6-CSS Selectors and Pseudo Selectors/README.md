@@ -2,15 +2,15 @@
 
 - Pseudo selectors : 가상 셀렉터를 뜻하며 팀으로 일할 때 자주 사용한다.
 
-    ```css
-    input[type='submit']{
-                background-color: red;
-            }
-    ```
-    - id,tag,class를 사용하지 못할경우 위와 같은 방법으로 사용할 수 있다.    
+  ```css
+  input[type="submit"] {
+    background-color: red;
+  }
+  ```
 
+  - id,tag,class를 사용하지 못할경우 위와 같은 방법으로 사용할 수 있다.
 
-    ```css    
+````css
     .box:first-child{
                 background-color: red;
             }
@@ -21,9 +21,9 @@
     ```css
     input+.box {
             border: 1px solid black;
-            
+
         }
-    ```    
+    ```
     - input과 box class는 형제라는 의미다.
 
     ```css
@@ -37,7 +37,13 @@
     ```css
     .child{
             background-color: khaki;
-            
+
         }
     ```
     - direct child가 아니여서 indigo색상이 적용되지않는다.
+
+
+---
+
+<a href='http://www.topdesignagencies.com/nth-test/'>Pseudo selectors</a>
+````

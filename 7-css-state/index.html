@@ -1,44 +1,48 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>css-state</title>
-        <meta charset='UTF-8'>
-        <meta name='viewport' content='width=device-width, initial-scale=1.0'>
-        <meta http-equiv='X-UA-Compatible' content='ie=edge'>
-        <style>
-        .box{
-            background-color: black;
+
+<head>
+    <title>css-state</title>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <meta http-equiv='X-UA-Compatible' content='ie=edge'>
+    <style>
+        .box {
+            background-color: red;
             font-size: 40px;
         }
-        
-        
-        .box:hover
-        {
+
+
+        .box:hover {
             background-color: green;
 
         }
-        
 
-        .box:active
-        {
+
+        .box:active {
             background-color: lawngreen;
-            
+
         }
 
-        .box:focus
-        {
-            background-color:blue;
-            
+        .box:focus {
+            background-color: blue;
+
         }
 
-        </style>
-    </head>
-    <body>
-        <!--<span class="box">arsenal</span>-->
-        <textarea class="box">bingo</textarea>
+        input:focus {
+            background-color: chartreuse;
+        }
 
-    </body>
+        a:visited {
+            color: blueviolet;
+        }
+    </style>
+</head>
+
+<body>
+    <span class="box">arsenal</span>
+    <input type="text">
+    <a href="https://www.naver.com">naver</a>
+</body>
+
 </html>
-
-
-  
