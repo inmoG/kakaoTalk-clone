@@ -6,7 +6,7 @@
 - status-bar\_\_column 클래스는 status-bar의 자식 클래스다.
 - status-bar\_\_clock 클래스는 status-bar\_\_column의 자식 클래스다.
 - 아이콘은 <a href='https://fontawesome.com/'>Font Awesome</a>의 무료 아이콘을 사용한다.
-- 아이콘 크기를 변경하고 싶다면 `fa-Nx` 코드를 사용한다.
+- 아이콘 크기 설정은 `fa-Nx` 코드를 추가해야 한다.
 
 ```html
 <span class="header__icon">
