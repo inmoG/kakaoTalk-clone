@@ -14,6 +14,6 @@
 - flex-direction : `column`, `row`, `row-reverse`, `colume-reverse` 등의 속성이 있다. `column` 속성을 사용하면 `justify-content`는 수직이되고 `align-items`은 수평이 된다. 따라서 가운데에 정렬된다.
 - flex-wrap : `wrap`, `nowrap` 속성 등이 있다. `nowrap` 이 `default`이며 `wrap` 속성을 사용하면 창이 줄어들었을 경우 새로운 라인을 생성해 박스를 표현한다.`wrap`은 폭을 유지시켜주지만 `nowrap`은 폭을 유지시키지 않는다.
 
-```html
+---
+
 <a href="http://flexboxfroggy.com/#ko">flexbox game</a>
-```
