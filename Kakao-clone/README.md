@@ -17,6 +17,7 @@
 
 ---
 
+<p>모든 폴더와 파일명은 소문자로 저장한다.</p>
 <p>'__'는 부모 자식클래스를 구분하기 위해 사용한다.</p>
 <p>'-'는 단어를 구분하기 위해 사용한다.</p>
 <a href="https://velog.io/@yesdoing/BEM-Block-Element-Modifier-Quick-start">BEM방법론</a>
