@@ -41,8 +41,8 @@
 ```
 
 - 모든 프로필 창은 두 개 컬럼으로 구성된다.
-  ![Friends](https://user-images.githubusercontent.com/50260620/71883127-161ca000-3179-11ea-84f4-b89104c59d03.jpg)
 
+<img src='https://user-images.githubusercontent.com/50260620/71883127-161ca000-3179-11ea-84f4-b89104c59d03.jpg' height="900"/> 
 
 ---
 
