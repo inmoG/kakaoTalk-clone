@@ -41,7 +41,7 @@
 ```
 
 - 모든 프로필 창은 두 개 컬럼으로 구성된다.
-  ![friend__column](screen shot/Friends.jog)
+  ![friend__column](D:\공부\GitHub\kakaoTalk-clone\Kakao-clone\screen shot\Friends.jpg)
 
 ---
 
