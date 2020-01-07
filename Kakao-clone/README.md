@@ -15,9 +15,37 @@
 </span>
 ```
 
+## Friends.html
+
+```html
+<li class="friends__friend friend">
+  <div class="friend__column">
+    <img src="images/avatar.jpg" class="g-avatar friend__avatar" />
+    <div class="friend__content">
+      <span class="friend__name">
+        Areteta
+      </span>
+      <span class="friend__status">
+        <!--this is profile status-->
+        hello goonur
+      </span>
+    </div>
+  </div>
+  <div class="friend__column">
+    <div class="friend__now-listening">
+      <span>마음 - 폴킴</span>
+      <i class="fas fa-play"></i>
+    </div>
+  </div>
+</li>
+```
+
+- 모든 프로필 창은 두 개 컬럼으로 구성된다.
+  ![friend__column](screen shot/Friends.jog)
+
 ---
 
 <p>모든 폴더와 파일명은 소문자로 저장한다.</p>
 <p>'__'는 부모 자식클래스를 구분하기 위해 사용한다.</p>
 <p>'-'는 단어를 구분하기 위해 사용한다.</p>
-<a href="https://velog.io/@yesdoing/BEM-Block-Element-Modifier-Quick-start">BEM방법론</a>
+<a href="https://velog.io/@yesdoing/BEM-Block-Element-Modifier-Quick-start">BEM방법론</a
