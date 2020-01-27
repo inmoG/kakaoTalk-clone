@@ -23,11 +23,11 @@
     <img src="images/avatar.jpg" class="g-avatar friend__avatar" />
     <div class="friend__content">
       <span class="friend__name">
-        Areteta
+        Arteta
       </span>
       <span class="friend__status">
         <!--this is profile status-->
-        hello goonur
+        hello
       </span>
     </div>
   </div>
@@ -43,6 +43,14 @@
 - 모든 프로필 창은 두 개 컬럼으로 구성된다.
 
 <img src='https://user-images.githubusercontent.com/50260620/71883127-161ca000-3179-11ea-84f4-b89104c59d03.jpg' height="900"/>
+
+## github pages
+
+- new branch `gh-pages`를 생성한다.
+
+- github pages 주소는 아래 형식을 따른다.
+- username.github.io/[a name of the project]
+- 변경은 `master branch`로 한다.
 
 ---
 
