@@ -1,5 +1,6 @@
 .header-wrapper {
   position: fixed;
+  z-index: 2;
   top: 0px;
   width: 100%;
   padding: 5px 0px;
@@ -9,9 +10,9 @@
 .chats-body {
   padding: 0px;
   padding-top: 100px;
-  background-image: url(../images/chatBg.jfif);
+  background-image: url(../images/chatBg.png);
   min-height: 500vh;
-  background-size: cover;
+
   /*body의 기본 패딩인 10px 20px을 지우기 위해 0px을 적용함*/
 }
 
@@ -42,7 +43,7 @@
 
 .chat__messages .chat__timestamp {
   margin-bottom: 30px;
-  background-color: #f7f7f7;
+  background-color: yellow;
   padding: 5px 10px;
   border-radius: 30px;
   font-size: 13px;
@@ -67,6 +68,21 @@
   height: 30px;
   border-radius: 20px;
   margin-right: 15px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px,
+    rgba(0, 0, 0, 0.024) 0px -6px 16px -6px;
+  animation: spin 1s linear infinite;
+}
+
+
+@keyframes spin {
+  from {
+    transform: none;
+  }
+
+  to {
+    transform: rotateY(1turn);
+  }
 }
 
 .incoming-message {
@@ -219,6 +235,7 @@
 .sent-message {
   animation: sentAnimation 0.5s ease-out forwards;
 }
+
 
 /*.chat__write-column:nth-child(2) {
 
