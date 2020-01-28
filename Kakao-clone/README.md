@@ -52,6 +52,38 @@
 - username.github.io/[a name of the project]
 - 변경은 `master branch`로 한다.
 
+## @media screen
+
+```css
+.bigScreen {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: #fae100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  color: white;
+  font-size: 28px;
+  text-align: center;
+  line-height: 1.5;
+  padding: 0px 20px;
+  display: none;
+  z-index: 4;
+}
+
+@media screen and (min-width: 550px) {
+  .bigScreen {
+    display: flex;
+  }
+}
+```
+
+- `min-max : 550px` 이하일 경우 `@media screen`의 `display:flex;`가 해제되고 `bigScreen`의 `display: none;`이 적용된다.
+
 ---
 
 <p>모든 폴더와 파일명은 소문자로 저장한다.</p>
