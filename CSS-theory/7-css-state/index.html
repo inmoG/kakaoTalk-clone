@@ -7,11 +7,22 @@
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
     <meta http-equiv='X-UA-Compatible' content='ie=edge'>
     <style>
+        :root {
+
+            --main-color: skyblue;
+            --default-border: 1px solid var(--main-color);
+        }
+
         .box {
             background-color: red;
             font-size: 40px;
+            border-radius: 10px;
         }
 
+        .box:active {
+            background-color: pink;
+
+        }
 
         .box:hover {
             background-color: green;
@@ -19,30 +30,87 @@
         }
 
 
-        .box:active {
-            background-color: lawngreen;
-
-        }
 
         .box:focus {
             background-color: blue;
 
         }
 
-        input:focus {
-            background-color: chartreuse;
+
+        a {
+            border: var(--default-border);
         }
 
         a:visited {
-            color: blueviolet;
+            color: tomato;
+        }
+
+        a:hover {
+            color: blue;
+        }
+
+        a:focus {
+            color: black;
+        }
+
+
+        form {
+            border: 1px solid black;
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+        }
+
+        form:focus-within {
+            border-color: red;
+        }
+
+        form:hover input:focus {
+            background-color: darkorchid;
+        }
+
+        form:hover input {
+            background-color: gold;
+        }
+
+        input::placeholder {
+            color: tomato;
+        }
+
+        p::selection {
+            background-color: orange;
+            color: white;
+        }
+
+        p::first-letter {
+            font-size: 50px;
+        }
+
+        p {
+            color: var(--main-color);
+        }
+
+        #var {
+            color: var(--main-color);
         }
     </style>
 </head>
 
 <body>
     <span class="box">arsenal</span>
-    <input type="text">
-    <a href="https://www.naver.com">naver</a>
+    <input type="text" />
+    <input type="text" />
+    <a href="https://nomadcoders.co/">nomadcoders</a>
+    <br><br>
+    <form action="">
+        <input type="text" placeholder="name" />
+        <input type="text" placeholder="name" />
+        <input type="text" placeholder="name" />
+    </form>
+    <br><br>
+    <p>this is pizza.</p>
+    <span id="var">this is chiken</span>
+    <!--css custom properties-->
 </body>
 
 </html>
