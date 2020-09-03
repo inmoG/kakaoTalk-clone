@@ -1,0 +1,91 @@
+.welcome-header {
+    margin: 80px 0px;
+    text-align: center;
+    /* .welcome-header__text - width 를 사용하면 텍스트가 왼쪽에 치우쳐져서 flex로 고정한다. */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.welcome-header__title {
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.welcome-header__text {
+    width: 60%;
+    opacity: 0.7;
+}
+
+#login-form {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 30px;
+}
+
+#login-form input {
+    border: none;
+    padding: 15px 0px;
+    font-size: 18px;
+}
+
+#login-form input:nth-child(2) {
+    margin-bottom: 20px;
+}
+
+#login-form input[type="submit"] {
+    background-color: yellow;
+    border-radius: 7px;
+    margin-bottom: 15px;
+    padding: 20px 0px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#login-form a {
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+    /*부모 속성 즉 login-form color 상속 받음*/
+    font-size: 14px;
+}
+
+#login-form input::placeholder {
+    color: rgba(0, 0, 0, 0.4);
+}
+
+#login-form input:not([type="submit"]) {
+    /*submit type이 아니면 실행*/
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    transition: border-color 0.5s ease-in-out;
+}
+
+#login-form input:focus {
+    border-color: var(--yellow);
+}
+
+
+
+/*
+#login-form input {
+    border: none;
+    padding: 15px 0px;
+    font-size: 18px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    margin-bottom : 25px;
+}
+
+#login-form input[type="text"] {
+    margin-bottom: 0px;
+}
+
+/*
+#login-form input:first-child {
+    margin-bottom: 0px;
+}
+
+#login-form input:nth-child(3) {
+    margin-bottom: 20px;
+}
+*/
