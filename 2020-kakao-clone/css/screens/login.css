@@ -45,9 +45,6 @@
 
 #login-form a {
     text-align: center;
-    text-decoration: none;
-    color: inherit;
-    /*부모 속성 즉 login-form color 상속 받음*/
     font-size: 14px;
 }
 
