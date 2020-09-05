@@ -132,3 +132,9 @@ table {
 input:focus {
     outline: none;
 }
+
+a {
+    color: inherit;
+    /*부모 속성 즉 body? color 상속 받음*/
+    text-decoration: none;
+}
