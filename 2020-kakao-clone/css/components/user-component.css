@@ -43,4 +43,19 @@
 
 .user-component__column:last-child {
     color: rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+
+.user-component__notification {
+    background-color: tomato;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 12px;
+    color: whitesmoke;
+    font-weight: 600;
+    position: absolute;
+
 }
