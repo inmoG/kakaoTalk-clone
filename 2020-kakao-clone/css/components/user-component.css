@@ -23,7 +23,7 @@
 .user-component__subtitle {
     margin-top: 8px;
     font-size: 15px;
-    color: rgba(0, 0, 0, 0.5);
+    color: var(--seconds-color);
 }
 
 .user-component__avatar--xl {
@@ -42,20 +42,15 @@
 }
 
 .user-component__column:last-child {
-    color: rgba(0, 0, 0, 0.5);
+    color: var(--seconds-color);
     position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    /*friends.html user__component-column에 플렉스를 왜 준거지?*/
 }
 
-.user-component__notification {
-    background-color: tomato;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 25px;
-    height: 25px;
-    border-radius: 12px;
-    color: whitesmoke;
-    font-weight: 600;
-    position: absolute;
-
+.user-component__time {
+    margin-bottom: 10px;
+    display: block;
 }
