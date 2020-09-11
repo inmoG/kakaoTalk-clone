@@ -8,12 +8,12 @@
 }
 
 #friends-display-link i {
-    color: rgba(0, 0, 0, 0.3);
+    color: rgba(0, 0, 0, 0.2);
 }
 
 .friends-screen__channel {
     margin-top: 25px;
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-top: var(--main-border);
     padding-top: 15px;
 }
 
@@ -21,5 +21,5 @@
     margin-bottom: 30px;
     display: flex;
     justify-content: space-between;
-    color: rgba(0, 0, 0, 0.5);
+    color: var(--main-color);
 }
