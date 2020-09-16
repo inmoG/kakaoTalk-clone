@@ -15,12 +15,12 @@
     margin-left: 25px;
 }
 
-.screen-hader__icons {
+.screen-header__icons a {
     position: relative;
 }
 
 .screen-header__notification {
     position: absolute;
-    left: 75px;
-    bottom: 20px;
+    right: -5px;
+    bottom: 22px;
 }
