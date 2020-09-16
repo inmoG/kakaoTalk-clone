@@ -1,20 +1,3 @@
-.find-icons {
-    display: flex;
-    justify-content: space-between;
-
-}
-
-.find-icons__icon {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.find-icons__icon i {
-    font-size: 35px;
-    padding: 20px;
-}
-
 .recommended-friends {
     border-top: var(--main-border);
     border-bottom: var(--main-border);
@@ -45,30 +28,6 @@
     color: var(--seconds-color);
 }
 
-
-.open-post {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: var(--main-border);
-    padding: 10px 0px;
-
-}
-
-.open-post:first-child {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-bottom: 10px;
-}
-
-.open-post:last-child {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 10px;
-}
-
 .open-post__title {
     margin-bottom: 7px;
 }
@@ -77,6 +36,21 @@
     text-transform: uppercase;
     color: var(--seconds-color);
 }
+
+.open-post {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*
+.open-post:nth-child(3) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+}
+*/
 
 .open-post__memebers {
     display: flex;
